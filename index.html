@@ -79,6 +79,9 @@ section{padding:104px 0}
 .feature{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .feature .wrap{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
 .feature .shot{box-shadow:0 20px 50px rgba(13,21,32,.15)}
+.feature .wrap.catalog{display:block;margin-top:64px}
+.catalog img{width:100%;height:auto;border-radius:var(--r);box-shadow:0 20px 50px rgba(13,21,32,.15);display:block}
+.catalog p{margin-top:12px;font-size:12px;color:#6b7684;text-align:center}
 .points{list-style:none;margin-top:28px;display:grid;gap:16px}
 .points li{display:flex;gap:14px}
 .points li:before{content:"";flex:0 0 22px;height:22px;margin-top:2px;border-radius:50%;background:var(--ok) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12l4 4 8-8' stroke='%2306210f' stroke-width='3' fill='none'/%3E%3C/svg%3E") center/14px no-repeat}
@@ -239,6 +242,12 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
         <div><dt>모니터</dt><dd>21.5" 산업용</dd></div>
       </dl>
     </div>
+  </div>
+  <div class="wrap catalog">
+    <a href="img/seal-catalog.jpg" target="_blank" rel="noopener" title="원본 크기로 보기">
+      <img src="img/seal-catalog.jpg" alt="Hures 포장 실링 검사 시스템 구성: 카메라 3대(좌측 End Seal, 중앙 Fin Seal, 우측 End Seal), 스트로브 조명 3개, 제품 감지 센서, 엔코더, 에어 실린더 불량 배출, 검사 결과 예시" loading="lazy">
+    </a>
+    <p>시스템 구성 · 검사 결과 예시 — 누르면 원본 크기로 볼 수 있습니다</p>
   </div>
 </section>
 
